@@ -9,5 +9,9 @@ class DemoApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	public String onTestRun{
+		System.out.println("demo tests are being ran!");
+	}
 
 }
