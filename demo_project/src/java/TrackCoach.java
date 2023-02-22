@@ -18,4 +18,15 @@ public class TrackCoach implements Coach {
 	public TrackCoach(FortuneService fortune) {
 		this.fortuneService = fortune;
 	}
+	
+//	init method
+	public void doMyStartupStuff() {
+		System.out.println("TrackCoach: inside method doMyStartupStuff");
+	}
+	
+//	destroy method
+	public void doMyCleanupStuff() {
+		System.out.println("TrackCoach: inside method doMyCleanupStuff");
+	}
+	
 }
